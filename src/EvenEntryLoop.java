@@ -7,7 +7,7 @@ public class EvenEntryLoop {
         String reslut;
         Scanner input = new Scanner(System.in);
         System.out.println("Enter in an even number");
-        userEntry = input.nextInt( );
+        userEntry = input.nextInt(  );
 
         if (userEntry % 2 == 0) {
             reslut = userEntry + "Good job!";
